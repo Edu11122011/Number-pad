@@ -24,7 +24,7 @@ for i in range(4):
             borderwidth=1
         )
         frame.grid(row=i, column=j)
-        label = Label1(master=frame, text=nums[i][j],
+        label = Label(master=frame, text=nums[i][j],
 bg='#d0efff')
         label.pack(padx=3, pady=3)
 
